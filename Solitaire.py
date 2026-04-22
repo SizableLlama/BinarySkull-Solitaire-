@@ -76,9 +76,9 @@ skull =r"""
                                        ~~
 
 """
-
-with pyautogui.hold('win'):
-    pyautogui.press('x')
+#I have replaced hold with just press.
+pyautogui.press('win')
+#    pyautogui.press('x')
 time.sleep(0.5)
 
 pyautogui.write('Windows Terminal')
