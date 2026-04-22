@@ -20,7 +20,7 @@ jobs:
         run: pyinstaller --onefile --noconsole Solitaire.py
 
       - name: Upload EXE
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Solitaire
           path: dist/Solitaire.exe
